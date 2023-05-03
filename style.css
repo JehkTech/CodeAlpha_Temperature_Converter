@@ -1,0 +1,99 @@
+.container {
+    max-width: 600px;
+    margin: 10px auto;
+    text-align: center;
+    padding: 1.5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2229;
+    border-radius: 20px;
+  }
+
+  h1 {
+    padding: 10px;
+    font-size: 3em;
+    color: #fff;
+  }
+  
+  .form-group {
+    padding: 1em;
+  }
+  
+  label {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 35px;
+    color: #111c;
+  }
+  
+  input[type="number"] {
+    width: auto;
+    padding: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    background: none;
+    color: #fff;
+  }
+
+  .inputTemp {
+    color: #fff;
+    font-size: 30px;
+  }
+
+  button {
+    width: 20em;
+    height: 5em;
+    margin: 2em;
+    padding: 10px;
+    background-color: #4CAF51;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 13px;
+  }
+  
+  #convertButton {
+    font-size: 21px;
+  }
+
+  button:hover {
+    background-color: #2229;
+  }
+  
+  input::placeholder {
+    color: #fff;
+    font-size: 25px;
+  }
+
+  .result {
+    font-size: 40px;
+    color: #111c;
+  }
+  
+  #unitLabel {
+  font-size: 40px;
+  color: #111c;
+  } 
+
+@media only screen and (max-width: 600px) {
+  /* Styles for screens smaller than 600px */
+  /* For example: smartphones */
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1200px) {
+  /* Styles for screens between 600px and 1200px */
+  /* For example: tablets and small laptops */
+}
+
+@media only screen and (min-width: 1200px) {
+  /* Styles for screens larger than 1200px */
+  /* For example: desktops and large laptops */
+}
+
+img, video {
+  max-width: 100%;
+  height: auto;
+}
+
